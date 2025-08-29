@@ -2041,7 +2041,7 @@ func Create_TerminationInstruction: <"Creates the relevant primitive instruction
         tradeState -> trade -> tradeLot only-element -> priceQuantity -> quantity
             extract
                 NonNegativeQuantitySchedule {
-                    value: 0.0,
+                    value: 1.0,
                     unit: item -> unit,
                     ...
                 }
