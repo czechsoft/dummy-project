@@ -1,0 +1,20 @@
+![Capgemini Logo](https://www.capgemini.com/wp-content/themes/capgemini2020/assets/images/logo.svg)
+
+### Get The Future You Want!
+
+---
+diff --git a/rosetta-source/src/main/rosetta/legaldocumentation-common-type.rosetta b/rosetta-source/src/main/rosetta/legaldocumentation-common-type.rosetta
+index ce2f461..8db70f1 100644
+--- a/rosetta-source/src/main/rosetta/legaldocumentation-common-type.rosetta
++++ b/rosetta-source/src/main/rosetta/legaldocumentation-common-type.rosetta
+@@ -170,6 +170,10 @@
+     primaryNotices ContactElection (1..1) <"Specification of primary notice details">
+     additionalNotices PartyContactInformation (0..*) <"The optional specification of additional information when a party requires notices to be delivered to more than one address.">
+ 
++type AddressForClients: <"Specification of the address and other details for notices.">
++    primaryNotices ContactElection (1..1) <"Specification of primary notice details">
++    additionalNotices PartyContactInformation (0..*) <"The optional specification of additional information when a party requires notices to be delivered to more than one address.">
++
+ type OtherAgreementTerms: <"A class to specify a related legal agreement. For example, ISDA 2016 Credit Support Annex for Initial Margin, paragraph 13, General Principles, (s): Other CSA and Japanese Law CSA (VM). | ISDA 2016 Credit Support Annex for Variation Margin, paragraph 13, (o): Other CSA.">
+ 
+     isSpecified boolean (1..1) <"The qualification of whether some other related agreement is specified (True) or not (False).">
