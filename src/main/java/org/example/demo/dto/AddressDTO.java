@@ -1,15 +1,11 @@
 package org.example.demo.dto;
 
-public class AddressDTO {
-    private Long id;
+public class AddressDTO extends AbstractDTO {
     private String postalCode;
     private String city;
     private String street;
     private String houseNumber;
     private String flatNumber;
-
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
 
     public String getPostalCode() { return postalCode; }
     public void setPostalCode(String postalCode) { this.postalCode = postalCode; }
