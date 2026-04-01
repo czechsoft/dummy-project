@@ -1,0 +1,15 @@
+![Capgemini Logo](https://www.capgemini.com/wp-content/themes/capgemini2020/assets/images/logo.svg)
+
+### Get The Future You Want!
+
+---
+diff --git a/rosetta-source/src/main/rosetta/base.rosetta b/rosetta-source/src/main/rosetta/base.rosetta
+new file mode 100644
+index 0000000..e9a5c5d
+--- /dev/null
++++ b/rosetta-source/src/main/rosetta/base.rosetta
+@@ -0,0 +1,4 @@
++namespace cdm.base : <"Basic concepts used across the model: date, time, math, static data.">
++version "${project.version}"
++
++metaType id string
